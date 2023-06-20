@@ -1,0 +1,47 @@
+/******************************************************************************
+
+                              Online C++ Compiler.
+               Code, Compile, Run and Debug C++ program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <iostream>
+
+
+
+
+#include <conio.h>
+using namespace std;
+main()
+{
+ //DICHIARAZIONE DELLE VARIABILI
+int n;
+int resto;
+int cont;
+cout<<"CALCOLO NUMERI PRIMI MINORI DI N"<<endl<<endl;
+//INPUT DI N COMPRESO TRA 1 E 1000
+do
+{
+ cout<<"Inserire n (MAX 10000000): ";
+ cin>>n;
+}
+while(n<1 || n>10000000);
+cout<<endl<<"I numeri primi da 1 a "<<n<<" sono:";
+for(int k=1;k<=n;k++)
+{
+ cont=0;
+ for(int f=1;f<=k;f++)
+ {
+ resto=k%f;
+ if(resto==0)cont++;
+ }
+ if(cont<3)
+ {
+ if(k==n)cout<<k<<".";
+ else cout<<k<<", ";
+ }
+}
+cout<<endl<<endl<<"FINE..."<<endl<<endl;
+system("pause");
+}

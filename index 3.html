@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form con checkbox</title>
+<style>
+.columns {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+}
+</style>
+</head>
+<body>
+<form action="spesa.php" method="POST">
+<p>Pasta Riso</p>
+<div class="columns">
+  <div class="column">
+    <input type="checkbox" name="spesa[]" value="riso" id="riso">
+    <label for="riso">Riso</label><br>
+    <input type="checkbox" name="spesa[]" value="riso_basmati" id="riso_basmati">
+    <label for="riso_basmati">Riso Basmati</label><br>
+    <input type="checkbox" name="spesa[]" value="riso_integrale" id="riso_integrale">
+    <label for="riso_integrale">Riso Integrale</label><br>
+    <input type="checkbox" name="spesa[]" value="riso_venere" id="riso_venere">
+    <label for="riso_venere">Riso Venere</label><br>
+</div>
+<div class="column">
+    <input type="checkbox" name="spesa[]" value="penne_rigate" id="penne_rigate">
+    <label for="penne_rigate">Penne rigate</label><br>
+    <input type="checkbox" name="spesa[]" value="mezze_penne_rigate" id="mezze_penne_rigate">
+    <label for="mezze_penne_rigate">Mezze Penne rigate</label><br>
+      <input type="checkbox" name="spesa[]" value="rigatoni" id="rigatoni">
+    <label for="rigatoni">Rigatoni</label><br>
+</div>
+<div class="column">
+    <input type="checkbox" name="spesa[]" value="spaghettini" id="spaghettini">
+    <label for="spaghettini">Spaghettini</label><br>
+    <input type="checkbox" name="spesa[]" value="spaghetti_03" id="spaghetti_03">
+    <label for="spaghetti_03">Spaghetti 03</label><br>
+    <input type="checkbox" name="spesa[]" value="spaghetti_05" id="spaghetti_05">
+    <label for="spaghetti_05">Spaghetti 05</label><br>
+  
+</div>
+<p>Pasta<br>all'uovo</p>
+<div class="column">
+  <input type="checkbox" name="spesa[]" value="tagliolini" id="tagliolini">
+    <label for="tagliolini">Tagliolini</label><br>
+    <input type="checkbox" name="spesa[]" value="tagliatella" id="tagliatella">
+    <label for="tagliatella">Tagliatella</label><br>
+     <input type="checkbox" name="spesa[]" value="paglie_fieno" id="paglie_fieno">
+    <label for="paglie_fieno">Paglia e fieno</label><br>
+    <input type="checkbox" name="spesa[]" value="pasta_sofoglia" id="pasta_sfoglia">
+    <label for="pasta_sfoglia">Pasta sfoglia</label><br>
+  </div>
+  
+</div>
+<p>Frutta Verdura</p>
+<div class="columns">
+  <div class="column">
+<input type="checkbox" name="spesa[]" value="spinaci" id="spinaci">
+<label for="spinaci">Spinaci</label><br>
+<input type="checkbox" name="spesa[]" value="zucchine" id="zucchine">
+<label for="zucchine">Zucchine</label><br>
+<input type="checkbox" name="spesa[]" value="melanzane" id="melanzane">
+<label for="melanzane">Melanzane</label><br>
+<input type="checkbox" name="spesa[]" value="peperoni" id="peperoni">
+<label for="peperoni">Peperoni</label><br>
+<input type="checkbox" name="spesa[]" value="pomodori_ramati" id="pomodori_ramati">
+<label for="pomodori_ramati">Pomodori Ramati</label><br>
+ </div>
+  <div class="column">
+      <input type="checkbox" name="spesa[]" value="lattuga" id="lattuga">
+<label for="lattuga">Lattuga</label><br>
+<input type="checkbox" name="spesa[]" value="insalata_riccia" id="insalata_riccia">
+<label for="insalata_riccia">Insalata Riccia</label><br>
+<input type="checkbox" name="spesa[]" value="valeriana" id="valeriana">
+<label for="valeriana">Valeriana</label><br>
+<input type="checkbox" name="spesa[]" value="iceberg" id="iceberg">
+<label for="iceberg">Iceberg</label><br>
+  </div>
+  <div class="column">
+    <input type="checkbox" name="spesa[]" value="mele" id="mele">
+    <label for="mele">Mele</label><br>
+    <input type="checkbox" name="spesa[]" value="mele_rossa" id="mele_rosse">
+    <label for="mele_rosse">Mele rosse</label><br>
+    <input type="checkbox" name="spesa[]" value="pere" id="pere">
+    <label for="pere">Pere</label><br>
+      </div>
+     
+
+  <div class="column">
+    <input type="checkbox" name="spesa[]" value="banane" id="banane">
+    <label for="banane">Banane</label><br>
+    <input type="checkbox" name="spesa[]" value="arance" id="arance">
+    <label for="arance">Arance</label><br>
+    <input type="checkbox" name="spesa[]" value="mandarini" id="mandarini">
+    <label for="mandarini">Mandarini</label><br>
+    <input type="checkbox" name="spesa[]" value="arance_tarocca" id="arance_tarocca">
+    <label for="arance_tarocca">Arance tearocche</label><br>
+    <input type="checkbox" name="spesa[]" value="uva" id="uva">
+    <label for="uva">Uva</label><br>
+    <input type="checkbox" name="spesa[]" value="uva_rossa" id="uva_rossa">
+    <label for="uva_rossa">Uva rossa</label><br>
+  </div>
+</div>
+  
+<input type="submit" value="Invia">
+</form>
+</body>
+</html>

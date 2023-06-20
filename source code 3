@@ -1,0 +1,50 @@
+#include <iostream>
+using namespace std;
+
+class persona{
+                private:
+                        string cognome;
+                        string nome;
+                        float stipendio;
+
+         public:
+            
+     ~persona(){ cout << "\n\n oggetto formattato\a";}
+  
+ 
+    void setCognome(string cog){
+                                cognome = cog;}
+    string getCognome(){
+                        return cognome;}
+    
+    
+    void setNome(string nom){
+                            nome = nom;}
+    string getNome(){
+                    return nome;}
+    
+    
+    void setStipendio(float sti){
+                                stipendio = sti;}
+    float    getStipendio(){
+                             return stipendio;}
+    };
+
+    
+    int main() {
+ 
+        persona obj;
+        
+                obj.setCognome("Tornabene");
+                obj.setNome("Alex");
+                obj.setStipendio(3500);
+   
+    cout << "\n cognome    :" 
+                          << obj.getCognome()<< endl;
+    cout << " nome       :"
+                          << obj.getNome() << endl;
+    cout << " stipendio  :"
+                          << obj.getStipendio();
+
+  return 0;
+}

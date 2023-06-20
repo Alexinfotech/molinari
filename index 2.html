@@ -1,0 +1,86 @@
+<!-- 
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sondaggio con risposte preselezionate</title>
+</head>
+<body>
+<h1>Sondaggio</h1>
+<form action="risultati.php" method="POST">
+      <p>1. Qual è la tua fascia d'età?</p>
+    <select name="fasci età">
+        <option value="12-24">12-24</option>
+        <option value="25-34">25-34</option>
+        <option value="25-44">25-44</option>
+        <option value="45-64">45-64</option>
+        <option value="65+">65+</option>
+    </select>
+    
+    <p>2. Quali mezzi di trasporto utilizzi più frequentemente? (Seleziona una o più rispste)</p>
+    <input type="checkbox" name="mezzo_trasporto[]" value="auto" id="auto">
+    <label for="auto">Auto</label><br>
+    <input type="checkbox" name="mezzo_trasporto[]" value="moto" id="moto">
+    <label for="moto">Moto</label><br>
+    <input type="checkbox" name="mezzo_trasporto[]" value="bicicletta" id="bicicletta">
+    <label for="bicicletta">Bicicletta</label><br>
+    <input type="checkbox" name="mezzo_trasporto[]" value="piedi" id="piedi">
+    <label for="piedi">A piedi</label><br>
+    <input type="checkbox" name="mezzo_trasporto[]" value="monopattino" id="monopattino">
+    <label for="monopattino">Monopattino</label><br>
+    
+</form>
+
+    
+    <p>1. Qual è il tuo genere musicale preferito?</p>
+    <select name="genere_musicale">
+        <option value="pop">Pop</option>
+        <option value="rock">Rock</option>
+        <option value="jazz">Jazz</option>
+        <option value="classica">Classica</option>
+        <option value="altro">Altro</option>
+    </select>
+
+    <p>2. Quanto spesso pratichi sport?</p>
+    <input type="radio" name="frequenza_sport" value="mai" id="mai">
+    <label for="mai">Mai</label><br>
+    <input type="radio" name="frequenza_sport" value="raramente" id="raramente">
+    <label for="raramente">Raramente</label><br>
+    <input type="radio" name="frequenza_sport" value="a_volte" id="a_volte">
+    <label for="a_volte">A volte</label><br>
+    <input type="radio" name="frequenza_sport" value="spesso" id="spesso">
+    <label for="spesso">Spesso</label><br>
+    <input type="radio" name="frequenza_sport" value="sempre" id="sempre">
+    <label for="sempre">Sempre</label><br>
+
+    <p>3. Quale piattaforma di social media utilizzi più frequentemente?</p>
+    <select name="social_media">
+        <option value="facebook">Facebook</option>
+        <option value="twitter">Twitter</option>
+        <option value="instagram">Instagram</option>
+        <option value="linkedin">LinkedIn</option>
+        <option value="nessuna">Nessuna</option>
+    </select>
+    
+    <p>3. Quali piattaforme di social media utilizzi più frequentemente? (Seleziona una o più rispste)</p>
+    <input type="checkbox" name="social_media[]" value="facebook" id="facebook">
+    <label for="facebook">Facebook</label><br>
+    <input type="checkbox" name="social_media[]" value="twitter" id="twitter">
+    <label for="twitter">Twitter</label><br>
+    <input type="checkbox" name="social_media[]" value="instagram" id="instagram">
+    <label for="instagram">Instagram</label><br>
+    <input type="checkbox" name="social_media[]" value="linkedin" id="linkedin">
+    <label for="linkedin">LinkedIn</label><br>
+    <input type="checkbox" name="social_media[]" value="nessuna" id="nessuna">
+    <label for="nessuna">Nessuna</label><br>
+
+
+    <br><br>
+    <input type="submit" value="Invia">
+</form>
+</body>
+</html>
