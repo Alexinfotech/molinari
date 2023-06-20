@@ -1,0 +1,1 @@
+#include <iostream>using namespace std;#include <math.h>class quadrato{public:    quadrato(int lato);    int perimetro(int a);    int area(int b);    float diagonale(float c);    void stampa();    void file();private:int lato;int a;int b;float c;int *v;FILE *p;};

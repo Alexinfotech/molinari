@@ -1,0 +1,73 @@
+/*
+OBBIETTIVO CLASSE FRAZIONE CON MENU
+1 INSERIMENTO TASTIERA
+2 GENERATORE AUTOMATICO
+
+PIANIFICAZIONE 
+1-CLASSE FRAZIONE 
+2-COSTRUTTORI
+3-RIDEFENIZIONE DI OEPRATORE ED USO
+4-SOMMA SOTTRAZIONE DIVISIONE MOLTIPLICAZIONE 
+5-CON UTLIZZO DI FORMULE MATEMATICHE
+6-CONTROLLO SET GET
+7-AGGIUNGERE CONFRONTO FRAZIONI MAGGIORE O MINORE
+8-AGGIUNGERE FUNZIONE SRAND/RAND
+9-AGGIUNGERE mcm
+10-eliminare denominatore 1 visualizzato
+restituire numero intero
+
+CHECK RAGGIUNTI
+1 ok
+2 ok
+3-ok
+4-ok
+5-ok
+6-ok
+7-ok
+8-ok
+9-ok
+10-ok
+
+Inserito algoritmo DI  MERCADO  per rand srand, trovato uguale su internet.L'avrà copiato ma non adeguato alla classe.
+E' inutile copiare da internet se poi non si è in grado di modificari i parametri di riferimento, meglio partire da zero.
+
+Modificato per richiamo matodi della classe per giusto svolgimento MCD mcm, ora i numeri generati entrano nella classe e svolgono
+l'intero ciclo nel modo corretto.
+
+
+
+
+CONSIGLI professsore
+
+dividere il bit in 2
+-fare più prove possibili per cercare eventuali errori
+-(MOLTO IMPORTANTE)se possibile usare (rand) per prove casuali in cerca di errore
+una volta che il funzionamneto e ok, generare errori eliminando varie instruzioni
+e segnare errori per una risoluzione più veloce in eventualità di errori concomitanti 
+alle prove effetuate
+-commentare il più possibile per un eventuale uso della classe da un collega
+con uso commenti è piu intuitivo il contenuto dell'algoritmo
+////////////////////////////////////////////////////////
+note professore
+
+-attenzione utlilizzo libreria system(cls) /RISOLUZIONE ELIMINARE USO CLS OK
+per eventuali virus in quanto la libreria (cls)
+da modo che dall'esterno si ha un modo per entrare su piattaforma software.RISOLTO
+
+- non contento per lo style del listaggio./ RISOLUZIONE,IN ESECUZIONE
+in caso di rincontrollo futuro dell'algoritmo 
+deve essere il piu intuitivo possibile
+
+-abituarsi a scrivere codice subito in tre file/ RISCIVERE IN RE FILE OK
+main.cpp frazione.h frazione.cpp
+PER UNA STRUTTURA MENTALE PIù SCHEMATICA POSSIBILE//RISOLTO
+
+NUMERI PRIMI CON CILCO DA UNO E DA NUMERO INSERITO PRIMA PARTE OK
+
+PROSSIMO OBBIETTIVO PERSONALIZZAREW using namespace std;
+ 
+APPRENDERE IN MANIERA LOGICA IL FUNZIONAMENTO PUNATORE, FUNZIONE DINAMICA
+CREA UN INDIRIZZO CON CONTENITORE CON ALL'INTERNO L'INDIRIZZO PUNTATO 
+MOLTO IMPORTANTE PER LA SALVAGUARDIA DELLE RISORSE DI MEMORIA IN FASE DI SVILUPPO
+PRIMO APPUNTO IMPORTASNTISSIMO NON SI PUO RICHIEDERE UN INDRIZZO SPECIFICO
+*/

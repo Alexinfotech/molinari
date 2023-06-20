@@ -1,0 +1,33 @@
+/*
+crea una classe vettore con due contruttori
+uno senza parametri
+uno con parametri
+partendi da questo programma
+
+int main()
+{
+    srand(time(NULL));
+    
+    int dim;
+        int* v;
+    cout<<"inserisci dim";
+    
+        cin>>dim;
+        
+            v=new int [dim];
+                for(int i=0; i<dim; i++){
+        *(v+i)=rand()%100;
+    
+    //cout<<"in posizione"<<i<<"si trova "<<*(v+i)<<endl;
+                    
+}
+
+cout<<"in posizione"<<i<<"si trova "<<*(v+i)<<endl;
+
+  delete []v; 
+
+
+    return 0;
+}
+
+}*/

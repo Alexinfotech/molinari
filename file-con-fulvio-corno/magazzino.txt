@@ -1,0 +1,5 @@
+viti 10
+bulloni 10
+chiodi 10
+chiodio
+dadi 15

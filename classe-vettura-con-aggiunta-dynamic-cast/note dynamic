@@ -1,0 +1,16 @@
+La funzione dynamic_cast viene utilizzata per eseguire il downcasting di un puntatore o di 
+un riferimento di un oggetto della classe base a un puntatore o riferimento di un oggetto 
+della classe derivata. In altre parole, se abbiamo una gerarchia di classi come quella definita 
+nel codice fornito, possiamo creare un puntatore della classe base Vettura, ma poi assegnare ad 
+esso un oggetto della classe derivata Auto utilizzando la sintassi di assegnazione polimorfica.
+
+In seguito, possiamo effettuare il downcasting del puntatore di Vettura a Auto tramite dynamic_cast, 
+solo se l'oggetto puntato è effettivamente un oggetto della classe derivata. In questo modo, possiamo
+accedere ai membri specifici della classe derivata, come nel caso del membro porte definito solo
+nella classe Auto. Se invece l'oggetto non è un oggetto della classe derivata, il risultato di
+dynamic_cast sarà un puntatore nullo.
+
+Tuttavia, è importante notare che dynamic_cast è una funzione che comporta un costo computazionale, 
+quindi dovrebbe essere usato solo quando necessario e quando si ha la necessità di accedere ai 
+membri specifici della classe derivata. Inoltre, è consigliabile progettare la gerarchia delle 
+classi in modo da minimizzare la necessità di downcasting.
