@@ -1,0 +1,13 @@
+MARITO
+Nome: GIACOMO   Cognome: TORNABENE   anni: 96
+MOGLIE
+Nome: MATILDE   Cognome: CILINO   anni: 95
+MARITO
+Nome: MICHELE   Cognome: TORNABENE   anni: 63
+MOGLIE
+Nome: ND   Cognome: ND   anni: 1
+MARITO
+Nome: ALESSANDRO   Cognome: TORNABENE   anni: 44
+MOGLIE
+Nome: FRANCESCA   Cognome: ADDONIZIO   anni: 38
+

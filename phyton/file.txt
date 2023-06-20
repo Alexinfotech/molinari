@@ -1,0 +1,2 @@
+Questo è un esempio di file di testo in Python.
+Questa è una stringa aggiuntiva.

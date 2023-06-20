@@ -1,0 +1,9 @@
+/******************************************************************************
+
+FUNZIONI:
+
+1)  formata da 2 elementi: protoipo e corpo
+        prototipo: formato da tipo + nome funzione + parametri
+        corpo: formato dal codice
+
+*******************************************************************************/
