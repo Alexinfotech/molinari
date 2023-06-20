@@ -1,0 +1,24 @@
+Crea classe stack,emulatore di un vettore con regola:
+L'ultimo dato inserito è il primo estratto
+controllo vettore pieno per non inserire i dati nel nulla
+controllo vettore vuoto per non richeidere di edstrare il nulla
+modifico classe stack è inserisco l'uso dei puntatori
+1 costruttore senza paramteri
+puntatoti dichiararo NULL/ indirizzo non valido/
+set/get
+this=dim oggetto indirizzo partenza
+2 metodi push/pop
+(int *v | *s) dichiarazione di variabile puntatore di tipo intero
+
+la dim del vettore viene creato con uso puntatore (*v)=dim nella (heap)
+mi sposto sul vettore con uso punatore (*s)=sp spostandomi su indirizzi 
+di 4 bit per volta e non per cella, in quanto ho dichiarato vettore 
+di numeri interi, partendo come punto di riferimento all'indirizzo
+iniziale.Quindi mi sposto per indirizzi celle vettore e uso inserimento 
+ed estrazione dati con (push)=iserisci (pop)=estrai
+controllo stack pieno/ stack vuoto
+visualizza dati ai indirizzi (*v)
+
+
+
+
