@@ -1,0 +1,2 @@
+# molinari
+Questa repository è una raccolta di lavori svolti durante l'anno scolastico 2022/2023 presso l'ITIS Molinari-serale 4A. Include una vasta gamma di esercizi e progetti in vari linguaggi di programmazione, tra cui C++, C, Python, HTML e JavaScript. Gli argomenti trattati vanno dalle classi e i puntatori in C++ e C, alla manipolazione di file, alla programmazione orientata agli oggetti e molto altro. Questa repository serve come un portfolio completo delle competenze e delle conoscenze acquisite durante l'anno scolastico.
